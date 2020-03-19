@@ -1,0 +1,46 @@
+.card{
+    box-shadow: 0 8px 4px 0;
+    transition: 0.3s;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.card:hover{
+    box-shadow: 0 16px 8px 0;
+}
+
+.img{
+    width: 40%;
+    height: 40%;
+}
+.interesing{
+    font-style: italic;
+}
+.list{
+    font-size: smaller;
+}
+.order, .class, .kingdom, .len , .mass{
+    
+    font-weight: bold;
+}
+
+.short-info{
+    text-align: center;
+    /* font-size:; */
+     /* align-self: center; */
+}
